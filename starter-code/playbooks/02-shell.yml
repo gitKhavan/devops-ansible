@@ -1,0 +1,5 @@
+- hosts: qa
+  tasks:
+    - name: Execute Shell Commands
+      shell: uname 
+    - debug: msg="Hello QA"
